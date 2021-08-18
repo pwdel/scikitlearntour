@@ -21,11 +21,23 @@ Using [Google Colab](colab.research.google.com/) to tour the above.
 
 [Supervised Learning Documentation](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
-### Ordinary Least Squares
+### Linear Models
+
+#### Ordinary Least Squares
 
 * [Ordinary Least Squares Documentation](https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares)
 
 * [Ordinary Least Squares Colab Notebook](https://colab.research.google.com/drive/1r8zxKgpzbDu4k3a6WKfDpUbX8mw9FyZq?usp=sharing)
+
+#### Bayesian Regression
+
+https://scikit-learn.org/stable/modules/linear_model.html#bayesian-regression
+
+#### Logistic Regression
+
+#### Generalized Linear Regression
+
+#### Polynomial Regression
 
 
 ### Discriminant Analysis
@@ -40,6 +52,11 @@ Note - matching the colors to the labels on the plot is not working.
 * n_components cannot be larger than min(n_features, n_classes - 1)
 
 * [Linear Discriminant Analysis Colab Notebook](https://colab.research.google.com/drive/13tGIeG_5Ign8ylFb5w6OJcQK5ATg16MF?usp=sharing)
+
+### Support Vector Machines
+
+###
+
 
 ### Random Forest Classifier
 
