@@ -8,6 +8,18 @@ Tour of [SciKit Learn](https://scikit-learn.org/stable/) and other Python Data E
 
 * Docker, installed and running.
 
+# What this Container Includes:
+
+* pandas 
+* numpy
+* matplotlib
+* plotly
+* scikit-learn
+
+# Future Additions
+
+* pytorch
+
 # Quick Install - Docker Version
 
 1. With terminal, navigate to "/" - the root folder.
@@ -63,70 +75,3 @@ Executing the command: jupyter notebook
 
 ```
 Since this is running from a Docker container and not direclty on the host machine, the way to run this is always going to be to visit 127.0.0.1:8888, followed by the token, since this is the port we set up on localhost to run this notebook via Docker.
-
-
-
-
-# Other Stuff
-
-## Google Colab Notebooks
-
-Using [Google Colab](colab.research.google.com/) to tour the above.
-
-
-# Matplotlib Plot Basics
-
-* [matplotlib.plot](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html)
-
-### Scatter
-
-### Plot
-
-# Topics
-
-## Supervised Learning
-
-[Supervised Learning Documentation](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
-
-### Linear Models
-
-#### Ordinary Least Squares
-
-* [Ordinary Least Squares Documentation](https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares)
-
-* [Ordinary Least Squares Colab Notebook](https://colab.research.google.com/drive/1r8zxKgpzbDu4k3a6WKfDpUbX8mw9FyZq?usp=sharing)
-
-#### Bayesian Regression
-
-https://scikit-learn.org/stable/modules/linear_model.html#bayesian-regression
-
-#### Logistic Regression
-
-#### Generalized Linear Regression
-
-#### Polynomial Regression
-
-
-### Discriminant Analysis
-
-* [Discriminant Analysis Documentation](https://scikit-learn.org/stable/modules/lda_qda.html)
-
-Note - matching the colors to the labels on the plot is not working.
-
-#### Linear Discriminant Analysis
-
-* Note that X (features) and y (classes) must have the same length.
-* n_components cannot be larger than min(n_features, n_classes - 1)
-
-* [Linear Discriminant Analysis Colab Notebook](https://colab.research.google.com/drive/13tGIeG_5Ign8ylFb5w6OJcQK5ATg16MF?usp=sharing)
-
-### Support Vector Machines
-
-###
-
-
-### Random Forest Classifier
-
-* [Random Forest Classifier Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier)
-
-[Random Forest Classifier Notebook](https://colab.research.google.com/drive/1ocCkHur3TooT8eDMF3lOMiLscpMU-ipw?usp=sharing)
